@@ -1,0 +1,11 @@
+gtk-can-change-accels = 1
+
+gtk-icon-theme-name = "Numix"
+gtk-theme-name = "Midnight-Green"
+
+style "user-font"
+{
+        font_name="Inconsolata-Regular 12"
+}
+widget_class "*" style "user-font"
+gtk-font-name = "Inconsolata-Regular 12"
